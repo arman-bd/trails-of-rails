@@ -11,6 +11,9 @@ class ScreenshotController < ApplicationController
   def index
   end
 
+  # @name show
+  # @description Screenshot show page
+  # @return [void]
   def show
     url = params[:url]
     if url.nil?
